@@ -147,7 +147,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           setState(() => _loadingButton1 = false);
                         }
                       },
-                      text: 'L&R PER LA PERSONE',
+                      text: 'L&R PER LA PERSONA',
                       options: FFButtonOptions(
                         width: 290,
                         height: 65,
