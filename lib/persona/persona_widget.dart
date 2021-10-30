@@ -90,37 +90,42 @@ class _PersonaWidgetState extends State<PersonaWidget> {
                             color: Color(0xFF090F13),
                             borderRadius: BorderRadius.circular(8),
                           ),
-                          child: Column(
-                            mainAxisSize: MainAxisSize.max,
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Container(
-                                width: 48,
-                                height: 48,
-                                decoration: BoxDecoration(
-                                  color: Color(0xFF262D34),
-                                  shape: BoxShape.circle,
-                                ),
-                                child: Icon(
-                                  Icons.self_improvement_outlined,
-                                  color: Colors.white,
-                                  size: 32,
-                                ),
-                              ),
-                              Padding(
-                                padding:
-                                    EdgeInsetsDirectional.fromSTEB(8, 8, 8, 0),
-                                child: Text(
-                                  'Liberta&Ricchezza',
-                                  style: FlutterFlowTheme.bodyText2.override(
-                                    fontFamily: 'Lexend Deca',
-                                    color: Color(0xFF8B97A2),
-                                    fontSize: 14,
-                                    fontWeight: FontWeight.normal,
+                          child: InkWell(
+                            onTap: () async {
+                              await launchURL('https://libertaericchezza.com/');
+                            },
+                            child: Column(
+                              mainAxisSize: MainAxisSize.max,
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Container(
+                                  width: 48,
+                                  height: 48,
+                                  decoration: BoxDecoration(
+                                    color: Color(0xFF262D34),
+                                    shape: BoxShape.circle,
+                                  ),
+                                  child: Icon(
+                                    Icons.self_improvement_outlined,
+                                    color: Colors.white,
+                                    size: 32,
                                   ),
                                 ),
-                              )
-                            ],
+                                Padding(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      8, 8, 8, 0),
+                                  child: Text(
+                                    'Liberta&Ricchezza',
+                                    style: FlutterFlowTheme.bodyText2.override(
+                                      fontFamily: 'Lexend Deca',
+                                      color: Color(0xFF8B97A2),
+                                      fontSize: 14,
+                                      fontWeight: FontWeight.normal,
+                                    ),
+                                  ),
+                                )
+                              ],
+                            ),
                           ),
                         ),
                       ),
@@ -140,40 +145,45 @@ class _PersonaWidgetState extends State<PersonaWidget> {
                             color: Color(0xFF090F13),
                             borderRadius: BorderRadius.circular(8),
                           ),
-                          child: Column(
-                            mainAxisSize: MainAxisSize.max,
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Container(
-                                width: 48,
-                                height: 48,
-                                decoration: BoxDecoration(
-                                  color: Color(0xFF262D34),
-                                  shape: BoxShape.circle,
-                                ),
-                                child: Align(
-                                  alignment: AlignmentDirectional(0, 0),
-                                  child: FaIcon(
-                                    FontAwesomeIcons.wineBottle,
-                                    color: Colors.white,
-                                    size: 32,
+                          child: InkWell(
+                            onTap: () async {
+                              await launchURL('https://blackdrops.it/');
+                            },
+                            child: Column(
+                              mainAxisSize: MainAxisSize.max,
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Container(
+                                  width: 48,
+                                  height: 48,
+                                  decoration: BoxDecoration(
+                                    color: Color(0xFF262D34),
+                                    shape: BoxShape.circle,
+                                  ),
+                                  child: Align(
+                                    alignment: AlignmentDirectional(0, 0),
+                                    child: FaIcon(
+                                      FontAwesomeIcons.wineBottle,
+                                      color: Colors.white,
+                                      size: 32,
+                                    ),
                                   ),
                                 ),
-                              ),
-                              Padding(
-                                padding:
-                                    EdgeInsetsDirectional.fromSTEB(0, 8, 0, 15),
-                                child: Text(
-                                  'BlackDrops',
-                                  style: FlutterFlowTheme.bodyText2.override(
-                                    fontFamily: 'Lexend Deca',
-                                    color: Color(0xFF8B97A2),
-                                    fontSize: 14,
-                                    fontWeight: FontWeight.normal,
+                                Padding(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      0, 8, 0, 15),
+                                  child: Text(
+                                    'BlackDrops',
+                                    style: FlutterFlowTheme.bodyText2.override(
+                                      fontFamily: 'Lexend Deca',
+                                      color: Color(0xFF8B97A2),
+                                      fontSize: 14,
+                                      fontWeight: FontWeight.normal,
+                                    ),
                                   ),
-                                ),
-                              )
-                            ],
+                                )
+                              ],
+                            ),
                           ),
                         ),
                       ),
@@ -193,40 +203,46 @@ class _PersonaWidgetState extends State<PersonaWidget> {
                             color: Color(0xFF090F13),
                             borderRadius: BorderRadius.circular(8),
                           ),
-                          child: Column(
-                            mainAxisSize: MainAxisSize.max,
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Container(
-                                width: 48,
-                                height: 48,
-                                decoration: BoxDecoration(
-                                  color: Color(0xFF262D34),
-                                  shape: BoxShape.circle,
-                                ),
-                                child: Align(
-                                  alignment: AlignmentDirectional(0, 0),
-                                  child: FaIcon(
-                                    FontAwesomeIcons.searchDollar,
-                                    color: Colors.white,
-                                    size: 32,
+                          child: InkWell(
+                            onTap: () async {
+                              await launchURL(
+                                  'https://libertaericchezzatrading.com/');
+                            },
+                            child: Column(
+                              mainAxisSize: MainAxisSize.max,
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Container(
+                                  width: 48,
+                                  height: 48,
+                                  decoration: BoxDecoration(
+                                    color: Color(0xFF262D34),
+                                    shape: BoxShape.circle,
+                                  ),
+                                  child: Align(
+                                    alignment: AlignmentDirectional(0, 0),
+                                    child: FaIcon(
+                                      FontAwesomeIcons.searchDollar,
+                                      color: Colors.white,
+                                      size: 32,
+                                    ),
                                   ),
                                 ),
-                              ),
-                              Padding(
-                                padding:
-                                    EdgeInsetsDirectional.fromSTEB(8, 8, 8, 0),
-                                child: Text(
-                                  'Joe Ross Trading',
-                                  style: FlutterFlowTheme.bodyText2.override(
-                                    fontFamily: 'Lexend Deca',
-                                    color: Color(0xFF8B97A2),
-                                    fontSize: 14,
-                                    fontWeight: FontWeight.normal,
+                                Padding(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      8, 8, 8, 0),
+                                  child: Text(
+                                    'Joe Ross Trading',
+                                    style: FlutterFlowTheme.bodyText2.override(
+                                      fontFamily: 'Lexend Deca',
+                                      color: Color(0xFF8B97A2),
+                                      fontSize: 14,
+                                      fontWeight: FontWeight.normal,
+                                    ),
                                   ),
-                                ),
-                              )
-                            ],
+                                )
+                              ],
+                            ),
                           ),
                         ),
                       ),
@@ -264,8 +280,8 @@ class _PersonaWidgetState extends State<PersonaWidget> {
                           context,
                           PageTransition(
                             type: PageTransitionType.rightToLeft,
-                            duration: Duration(milliseconds: 1500),
-                            reverseDuration: Duration(milliseconds: 1500),
+                            duration: Duration(milliseconds: 500),
+                            reverseDuration: Duration(milliseconds: 500),
                             child: ChiSiamoWidget(),
                           ),
                         );

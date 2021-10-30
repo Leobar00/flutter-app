@@ -205,7 +205,8 @@ class _AziendaWidgetState extends State<AziendaWidget> {
                           ),
                           child: InkWell(
                             onTap: () async {
-                              await launchURL('https://www.joerossft.com/');
+                              await launchURL(
+                                  'https://libertaericchezzatrading.com/');
                             },
                             child: Column(
                               mainAxisSize: MainAxisSize.max,
@@ -279,8 +280,8 @@ class _AziendaWidgetState extends State<AziendaWidget> {
                           context,
                           PageTransition(
                             type: PageTransitionType.rightToLeft,
-                            duration: Duration(milliseconds: 1500),
-                            reverseDuration: Duration(milliseconds: 1500),
+                            duration: Duration(milliseconds: 500),
+                            reverseDuration: Duration(milliseconds: 500),
                             child: ChiSiamoWidget(),
                           ),
                         );
