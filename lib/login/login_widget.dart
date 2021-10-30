@@ -90,6 +90,9 @@ class _LoginWidgetState extends State<LoginWidget> {
                       children: [
                         TabBar(
                           labelColor: Colors.white,
+                          labelStyle: GoogleFonts.getFont(
+                            'Roboto',
+                          ),
                           indicatorColor: Colors.white,
                           tabs: [
                             Tab(
